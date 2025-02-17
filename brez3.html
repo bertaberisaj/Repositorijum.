@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<!-- CSS -->
+		<link rel="stylesheet" href="style.css">
+		<!-- End CSS -->
+		<!-- meta elements -->
+		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta name="description" content="some description">
+        <meta name="keywords" content="keyword 1, keyword 2, keyword 3, keyword 4, ...">
+		
+		<!-- Schema.org markup for Google+ -->
+		<meta itemprop="name" content="Hello Example">
+		<meta itemprop="description" content="Some description">
+		<meta itemprop="image" content="Your URL"> 
+		
+		<!-- Open Graph data -->
+		<meta property="og:title" content="Hello Example">
+		<meta property="og:type" content="article">
+		<meta property="og:url" content="Your URL">
+		<meta property="og:image" content="Your URL">
+		<meta property="og:description" content="Some description">
+		<meta property="article:tag" content="keyword 1, keyword 2, keyword 3, keyword 4, ...">
+		
+		<!-- Card data -->
+		<meta name="instagram:title" content="Hello Example">
+		<meta name="instagram:description" content="Some description">
+		
+        <meta name="author" content="bertaberisaj">
+		<!-- favicon meta -->
+		<link rel="icon" href="brez-logoo.jpg" type="image/x-icon"/>
+		<link rel="shortcut icon" href="brez-logoo.jpg" type="image/x-icon"/>
+		<!-- end favicon meta -->
+		<!-- end meta elements -->
+		
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet"> 
+		<!-- End Google Fonts -->
+		<title>Brez</title>
+        <style>
+            body {
+                color: white;
+                background-color: black;
+            }
+            a {
+                color: white;
+                font-size: 15pt;
+            }
+            header {
+                font-size: 12pt;
+                color: white;
+                padding: 10px 0;
+                text-align: center;
+            }
+            p {
+                text-align: center;
+            }
+            nav ul {
+                list-style-type: none;
+                text-align: center;
+            }
+            nav ul li {
+                display: inline;
+                margin: 0 30px;
+            }
+            nav a {
+                text-decoration: none;
+                color: white;
+                font-size: 16px;
+                padding: 10px 20px;
+
+            }
+            h1 {
+                text-align: center;
+
+            }
+            .text {
+                margin: 1% 1%;
+                text-align: center;
+            }
+            .BB {
+                text-align: center;
+            }
+            .contact {
+                opacity: 70%;
+            }
+            @media (max-width: 600px) {
+                .cointainer {
+                    width: 100%;
+                    padding: 10px;
+                }
+                }
+        </style>
+	</head>
+<body>
+	<header>
+        <img class="brez" src="brez-logo1.jpg" alt="brez-logo" width="100px">
+		<div class="brez-logo"></div>
+        <hr>
+		<nav>
+            <ul>
+                <li><a href="brezz.html" class="h">Home</a></li>
+                <li><a href="brez2.html" class="n">News</a></li>
+                <li><a href="brez3.html" class="c">Contact</a></li>
+                <li><a href="brez4.html" class="a">About</a></li>
+                <li><a href="Brez5.html" class="cc">Collection</a></li>
+            </ul>
+        </nav>
+        <hr>
+	</header>
+	<main>
+		<h1>Contact Form</h1>
+        <hr>
+		<div class="contact">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2781.7890741539636!2d15.966758816056517!3d45.795453279106205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d68b5d094979%3A0xda8bfa8459b67560!2sUl.+Vrbik+VIII%2C+10000%2C+Zagreb!5e0!3m2!1shr!2shr!4v1509296660756" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+			<form action="http://work2.eburza.hr/pwa/responzive-page/send-contact.php" id="contact_form" name="contact_form" method="POST">
+				<hr>
+                <br>
+                <div class="BB">
+                <label for="fname">First Name</label>
+                <br>
+				<input class="text" id="fname" name="firstname" placeholder="Your name.." required>
+                 <br>
+				<label for="lname">Last Name</label>
+                <br>
+				<input class="text" id="lname" name="lastname" placeholder="Your last name.." required>
+				<br>
+				<label for="lname">Your E-mail</label>
+                <br>
+				<input class="text" id="email" name="email" placeholder="Your e-mail.." required>
+                 <br>
+				<label for="country">Country</label>
+                <br>
+				<select class="text" name="country">
+				  <option value="">Please select</option>
+				  <option value="BE">Belgium</option>
+				  <option value="HR" selected>Croatia</option>
+				  <option value="LU">Luxembourg</option>
+				  <option value="HU">Hungary</option>
+                  <br>
+				</select>
+                <br>
+				<label for="subject">Subject</label>
+                <br>
+				<textarea class="text" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                 <br>
+				<input class="text" value="Submit">
+            </div>
+			</form>
+		</div>
+	</main>
+	<footer>
+        <hr>
+		<p>Copyright &copy; Berta Berišaj</p>
+        <br>
+	</footer>
+</body>
+</html>
